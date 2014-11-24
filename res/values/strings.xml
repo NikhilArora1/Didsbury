@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Didsbury</string>
+    <string name="welcome">Welcome to Didsbury!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity">Didsbury</string>
+    <string name="strTempTitle">Town of Didsbury</string>
+    <string name="strUpcomingTitle">Event Details</string>
+    <string name="strMapTitle">Map of Didsbury</string>
+    <string name="strNoticeTitle">Notice Details</string>
+    <string name="strTempStart">Start:</string>
+    <string name="strTempEnd">End:</string>
+    <string name="strTempDesc">Description</string>
+    <string name="txtTemp">Temp</string>
+    <string name="strTempVenue">Venue:</string>
+    <string name="txtWindSpeed">WindSpeed</string>
+    <string name="Separator">---</string>
+    <string name="small_text">Small Text</string>
+    <string name="condition">Condition</string>
+    <string name="title_activity_welcome_splash_screen">Didsbury</string>
+    <string name="action_settings">Settings</string>
+    <string name="StoneWall_header">Header Image</string>
+    <string name="StoneWall_footer">Footer Image</string>
+    <string name="title_activity_topic_list">TopicList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="searchname">Search&#8230;</string>
+    <string name="title_activity_map_canvas">MapCanvasActivity</string>
+    <string name="contactDetails">Feel free to contact us anytime with any questions or comments you may have. We appreciate having the opportunity to communicate with you 24/7 and will be sure to tend to any requests you have at our earliest opportunity.</string>
+    <string name="sunovaDetails">The Sunova Centre is a 17,000 square foot facility that boasts a gymnasium, commercial kitchen, nursery school room, boardroom, outdoor skating rink, 4 softball/baseball diamonds and 5 soccer pitches of various sizes.</string>
+    <string name="contactNumber">Town of Didsbury, Alberta \n2037-19 Avenue \nBox 790, Didsbury, Alberta, \n T0M 0W0 \n http://www.didsbury.ca</string>
+    <string name="sunovaNumber">The Sunova Centre \n 48 Holland Road \n West St. Paul, MB  R4A 5A4 \n Phone: (204) 336&#8211;0294 \n recreation@weststpaul.com</string>
+    <string name="contactTitle">West St. Paul</string>
+	<string name="sunovaTitle">The Rural Munisipality of West St. Paul</string>
+	<string name="sunovaInfoDetails">The Rural Municipality of West St. Paul has a very strong cultural and recreational backbone, evident by the numerous parks and sports venues located within its boundaries as well as the Sunova Centre - West St. Paul\'s newly built Community Centre.</string>
+    <string name="moreInfo">Find more information at:</string>
+    <!-- URLS FOR THE DATA -->
+    <!-- Map Events Urls -->
+    <string name="mapCategoryUrl">http://didsburycms.municipalwebsites.ca/_XMLData/mapscat.aspx</string>
+    <string name="mapCategoryDescUrl">http://didsburycms.municipalwebsites.ca/_XMLData/mapsdetails.aspx?mapscat=</string>
+
+    <!-- Upcoming Events Urls -->
+    <string name="upcomingEventUrl">http://didsburycms.municipalwebsites.ca/_XMLData/events.aspx</string>
+    <string name="upcomingDetailsUrl">http://didsbury.municipalwebsites.ca/iPhone/eventDetail.aspx?EventID=</string>
+
+    <!-- Notice Urls -->
+    <string name="localNoticeUrl">http://didsburycms.municipalwebsites.ca/_XMLData/notices.aspx</string>
+    <string name="localNoticeDescUrl">http://didsbury.municipalwebsites.ca/iPhone/noticesDetail.aspx?noticeID=</string>
+
+    <!-- Bunisess Directory Urls -->
+    <string name="businessDirectoryUrl">http://didsburycms.municipalwebsites.ca/_XMLData/businessCat.aspx</string>
+    <string name="businessCatUrl">http://didsburycms.municipalwebsites.ca/_XMLData/businessdetails.aspx?buscat=</string>
+    <string name="businessCatDescUrl">http://didsbury.municipalwebsites.ca/iPhone/businessDetail.aspx?BusID=</string>
+    <string name="title_activity_contact">Contact</string>
+    
+    <!-- Notification Service related data -->
+    <string name="notificationRegistration">http://didsburycms.municipalwebsites.ca/Register/adduser.aspx?</string>
+    
+     <!-- API Level Entry -->
+    <string name="API_Key">AIzaSyA0cfv5BMsZaHD7JTOJHOPOjxUoBzflhh0</string>
+    <string name="Project_Number">39325466019</string>
+    <!-- <string name="Project_Number">994518571853</string> -->
+    <string name="Project_Id">didsbury</string>
+    <string name="title_activity_emer_news_error">EmerNewsErrorActivity</string>
+
+</resources>

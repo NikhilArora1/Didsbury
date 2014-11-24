@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/topic_list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:layout_centerVertical="true"
+        android:padding="3dip" >
+
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="44.4dip"
+            android:layout_height="43.2dip"
+            android:layout_gravity="top"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/notice" />
+
+    </LinearLayout>
+
+    <!-- Rightend Arrow -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow" />
+
+    <!-- Title-->
+    <TextView
+        android:id="@+id/eventTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/list_image"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="60dip"
+        android:layout_centerVertical="true"
+        android:paddingRight ="6dip"
+        android:paddingBottom ="6dip"
+        android:text="@string/strTempTitle"
+        android:ellipsize="marquee"
+        android:textColor="#040404"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    <TextView
+        android:id="@+id/eventVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventTitle"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_marginLeft="60dip"
+        android:paddingTop="7dip"
+        android:text="@string/txtTemp"
+        android:textColor="#333333"
+        android:textSize="15sp" />
+    
+</RelativeLayout>

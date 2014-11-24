@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  
+
+    <RelativeLayout
+        android:id="@+id/header_image"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+       <ImageView
+        android:id="@+id/back_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notice_back"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name" />
+            
+    </RelativeLayout>
+
+    <include layout="@layout/search_bar" />
+    
+    <ListView
+        android:id="@+id/topicList"
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:background="#ededed"
+        android:divider="#cfcfcf"
+        android:dividerHeight="2dp"
+        android:listSelector="@drawable/topic_list_selector"
+        android:smoothScrollbar="true" >
+    </ListView>
+
+</LinearLayout>

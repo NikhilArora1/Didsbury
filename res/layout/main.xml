@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <ImageView
+        android:id="@+id/imageViewTop"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:paddingBottom="2dip"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY"
+        android:layout_gravity="top|left|fill_vertical"
+        android:contentDescription="@string/StoneWall_header"
+        android:layout_weight="4"/>
+    
+      <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:divider="#ffffff"
+        android:dividerHeight="2dp"
+        android:listSelector="@drawable/topic_list_selector" 
+        android:smoothScrollbar="false"
+        android:layout_weight="5.28">
+      </ListView>
+      
+       <ImageView
+        android:id="@+id/imageViewBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:paddingTop="2dip"
+        android:baselineAlignBottom="true"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY"
+        android:layout_gravity="top|left|fill_vertical"
+        android:contentDescription="@string/StoneWall_footer"
+        android:layout_weight="1"
+        android:clickable="true"/>
+
+</LinearLayout>

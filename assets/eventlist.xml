@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EventsList>
+	<Topic>
+	    <id>1</id>
+		<name>Local Notices</name>
+		<icon>notice</icon>
+		<color>#993333</color>
+	</Topic>
+	<Topic>
+	    <id>2</id>
+		<name>Upcoming Events</name>
+		<icon>upcoming</icon>
+		<color>#993333</color>
+	</Topic>
+	<Topic>
+	    <id>3</id>
+		<name>Local Maps</name>
+		<icon>maps</icon>
+		<color>#993333</color>
+	</Topic>
+	<Topic>
+	    <id>4</id>
+		<name>Business Directory</name>
+		<icon>business</icon>
+		<color>#993333</color>
+	</Topic>
+	<Topic>
+	    <id>5</id>
+		<name>Contact Us</name>
+		<icon>contact</icon>
+		<color>#993333</color>		
+	</Topic>
+</EventsList>

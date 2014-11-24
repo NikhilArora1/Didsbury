@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.all.net.itown.didsbury"
+    android:versionCode="3"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="ca.all.net.itown.didsbury.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="ca.all.net.itown.didsbury.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="ca.all.net.itown.didsbury.permission.C2D_MESSAGE" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="ca.all.net.itown.didsbury.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/NoTitleBarTheme">
+        <activity
+            android:name="ca.all.net.itown.didsbury.DidsburyActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.UpcomingDetailsActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.WelcomeSplashScreen"
+            android:label="@string/title_activity_welcome_splash_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.UpcomingEventActivity"
+            android:label="@string/title_activity_topic_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.LocalNoticeDetailsActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.LocalNoticeActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.MapCategoryActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.BusinessDirectoryActivity"
+            android:label="@string/title_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.MapDisplayActivity"
+            android:label="@string/title_activity_map_canvas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.MapCanvasActivity"
+            android:label="@string/title_activity_map_canvas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.BusinessCategoryActivity"
+            android:label="@string/title_activity_map_canvas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.all.net.itown.didsbury.BusinessCategoryDetailsActivity"
+            android:label="@string/title_activity_map_canvas"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="ca.all.net.itown.didsbury.ContactActivity"
+            android:label="@string/title_activity_map_canvas"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="ca.all.net.itown.didsbury.SunovaCenterActivity"
+            android:label="@string/title_activity_map_canvas"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <receiver
+            android:name="ca.all.net.itown.didsbury.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="ca.all.net.itown.didsbury" />
+            </intent-filter>
+        </receiver>
+        
+        <service android:name="ca.all.net.itown.didsbury.GcmIntentService" />
+        
+        
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA0cfv5BMsZaHD7JTOJHOPOjxUoBzflhh0" />
+        
+       <!-- <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAh0a5o1PdUQCmCmKGfN1m1z7liCt9_9yM" /> -->
+        
+        <!-- This is for the key generated for didsbury on vaio-->
+        <!-- <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAsCFQ0vxbMMPjAVZ0XxIJ0V6ey9O031H0" />
+         -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="6111000" />
+       
+    </application>
+
+</manifest>

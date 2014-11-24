@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<BusinessCategories>
+<Category>
+<CatID>105</CatID>
+<CatName><![CDATA[Accomodations]]></CatName>
+</Category>
+<Category>
+<CatID>107</CatID>
+<CatName><![CDATA[Agriculture]]></CatName>
+</Category>
+<Category>
+<CatID>108</CatID>
+<CatName><![CDATA[Apparel]]></CatName>
+</Category>
+<Category>
+<CatID>104</CatID>
+<CatName><![CDATA[Auto Services]]></CatName>
+</Category>
+<Category>
+<CatID>112</CatID>
+<CatName><![CDATA[Community Service Clubs]]></CatName>
+</Category>
+<Category>
+<CatID>111</CatID>
+<CatName><![CDATA[Community Services]]></CatName>
+</Category>
+<Category>
+<CatID>110</CatID>
+<CatName><![CDATA[Computers]]></CatName>
+</Category>
+<Category>
+<CatID>39</CatID>
+<CatName><![CDATA[Contractors]]></CatName>
+</Category>
+<Category>
+<CatID>50</CatID>
+<CatName><![CDATA[Education]]></CatName>
+</Category>
+<Category>
+<CatID>82</CatID>
+<CatName><![CDATA[Food Industry]]></CatName>
+</Category>
+<Category>
+<CatID>109</CatID>
+<CatName><![CDATA[Hardware]]></CatName>
+</Category>
+<Category>
+<CatID>75</CatID>
+<CatName><![CDATA[Land / Development / Rentals]]></CatName>
+</Category>
+<Category>
+<CatID>79</CatID>
+<CatName><![CDATA[Medical and Health Services]]></CatName>
+</Category>
+<Category>
+<CatID>43</CatID>
+<CatName><![CDATA[Professional Services]]></CatName>
+</Category>
+<Category>
+<CatID>90</CatID>
+<CatName><![CDATA[Recreation and Travel]]></CatName>
+</Category>
+<Category>
+<CatID>86</CatID>
+<CatName><![CDATA[Retail and Service Centres]]></CatName>
+</Category>
+<Category>
+<CatID>46</CatID>
+<CatName><![CDATA[Wellness and Beauty]]></CatName>
+</Category>
+<Category>
+<CatID>49</CatID>
+<CatName><![CDATA[Youth and Seniors]]></CatName>
+</Category>
+</BusinessCategories>

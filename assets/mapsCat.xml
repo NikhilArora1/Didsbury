@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<MapsCategories>
+<Category>
+<MapID>3</MapID>
+<MapName><![CDATA[Community Services]]></MapName>
+</Category>
+<Category>
+<MapID>12</MapID>
+<MapName><![CDATA[Financial Institutions]]></MapName>
+</Category>
+<Category>
+<MapID>10</MapID>
+<MapName><![CDATA[Places of Worship]]></MapName>
+</Category>
+<Category>
+<MapID>7</MapID>
+<MapName><![CDATA[Recreation & Tourism]]></MapName>
+</Category>
+<Category>
+<MapID>9</MapID>
+<MapName><![CDATA[Schools & Libraries]]></MapName>
+</Category>
+</MapsCategories>
